@@ -8,8 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = DateFromParams::VERSION
   spec.authors       = ["Pavel Astraukh"]
   spec.email         = ["paladin111333@yandex.ru"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Gem for fetching date or datetime from rails view helpers}
+  spec.summary       = %q{Gem provides functionality for fetching date/datetime from
+                          rails view helpers such as date_select, datetime_select,
+                          select_date and select_datetime}
   spec.homepage      = ""
   spec.license       = "MIT"
 
