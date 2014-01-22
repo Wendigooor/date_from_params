@@ -1,4 +1,4 @@
-[![Travis CI   ](https://api.travis-ci.org/enotpoloskun/date_from_params.png?branch=master)](https://travis-ci.org/enotpoloskun/date_from_params)
+[![Build Status](https://travis-ci.org/EnotPoloskun/date_from_params.png?branch=master)](https://travis-ci.org/EnotPoloskun/date_from_params)
 
 # DateFromParams
 
@@ -39,8 +39,14 @@ class OrdersController < ApplicationController
     @orders = Order.from(from_time)
   end
 end
-
 ```
+
+List of methods:
+
+1. date_from_date_select
+2. datetime_from_datetime_select
+3. date_from_select_date
+4. datetime_from_select_datetime
 
 ## Contributing
 
