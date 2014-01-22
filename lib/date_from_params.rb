@@ -43,3 +43,5 @@ module DateFromParams
 
   extend self
 end
+
+ActionView::Base.send(:include, DateFromParams) if defined?(ActionView)
