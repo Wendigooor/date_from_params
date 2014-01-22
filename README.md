@@ -1,3 +1,5 @@
+[![Travis CI   ](https://api.travis-ci.org/enotpoloskun/date_from_params.png?branch=master)](https://travis-ci.org/enotpoloskun/date_from_params)
+
 # DateFromParams
 
 Gem provides functionality for fetching date/datetime from rails like view helpers such as date_select, datetime_select, select_date and select_datetime.
